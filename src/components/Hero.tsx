@@ -1,7 +1,7 @@
 "use client"
 
-import { motion } from "framer-motion"
-import { ArrowRight } from "lucide-react"
+import { motion } from "framer-motion";
+import { ArrowRight } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -13,9 +13,9 @@ export default function Hero() {
         className="text-center z-10"
       >
         <h1 className="text-4xl md:text-6xl font-bold mb-4">
-          Unleashing the Power of <span className="text-blue-400">AI Creativity</span>
+          Hi i am<span className="text-blue-400">Qamar ui Zaman</span>
         </h1>
-        <p className="text-xl md:text-2xl mb-8">Transforming ideas into intelligent solutions</p>
+        <p className="text-xl md:text-2xl mb-8">student meta.AI</p>
         <motion.button
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
