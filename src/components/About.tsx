@@ -1,8 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Image from "next/image";
 
+import Image from "next/image";
 export default function About() {
   return (
     <section className="py-20 px-4 md:px-0">
