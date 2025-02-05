@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { motion } from "framer-motion"
-import { Linkedin, Github, Send, Phone, Video, Facebook } from "lucide-react"
+import { Linkedin,Github, Send, Phone, Video, } from "lucide-react"
 import type React from "react" 
 
 export default function Contact() {

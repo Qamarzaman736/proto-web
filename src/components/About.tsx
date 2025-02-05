@@ -1,8 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
-
 import Image from "next/image";
+
 export default function About() {
   return (
     <section className="py-20 px-4 md:px-0">
@@ -14,7 +14,6 @@ export default function About() {
             transition={{ duration: 0.8 }}
             className="flex flex-col md:flex-row items-center"
           >
-            
             <div className="md:w-1/2 mb-8 md:mb-0">
               <Image
                 src="/m.jpg"
@@ -25,12 +24,11 @@ export default function About() {
               />
             </div>
 
-            
             <div className="md:w-1/2 md:pl-12">
               <h2 className="text-3xl font-bold mb-4">About Me</h2>
               <p className="text-lg mb-6">
-                Hello i am Qamar Ul Zaman work as  a passionate AI researcher and developer, I specialize in creating cutting-edge solutions that push
-                the boundaries of what's possible with artificial intelligence. With a strong background in machine
+                Hello, I am Qamar Ul Zaman. I work as a passionate AI researcher and developer. I specialize in creating cutting-edge solutions that push
+                the boundaries of what&apos;s possible with artificial intelligence. With a strong background in machine
                 learning, natural language processing, and deep learning, I strive to develop innovative applications
                 that solve real-world problems.
               </p>
@@ -51,5 +49,3 @@ export default function About() {
     </section>
   );
 }
-
-
